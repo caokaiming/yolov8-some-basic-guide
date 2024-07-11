@@ -1,0 +1,6 @@
+path: ../dataset  # 資料集根目錄
+train: images/train  # 訓練圖片資料夾
+val: images/val  # 驗證圖片資料夾
+test:  # 可選，測試圖片資料夾
+nc: 5  # 類別數量
+names: ['class1', 'class2', 'class3', 'class4', 'class5']  # 類別名稱

@@ -1,0 +1,31 @@
+project_directory/
+├── dataset.yaml
+├── yolov8n_custom.yaml
+├── train_yolov8.py
+├── inference_yolov8.py
+├── runs/  # 訓練結果目錄
+│   ├── train/
+│       ├── yolov8n_custom/
+│           ├── weights/
+│               ├── best.pt
+├── dataset/
+│   ├── images/
+│   │   ├── train/
+│   │   │   ├── img1.jpg
+│   │   │   ├── img2.jpg
+│   │   │   └── ...
+│   │   ├── val/
+│   │   │   ├── img1.jpg
+│   │   │   ├── img2.jpg
+│   │   │   └── ...
+│   ├── labels/
+│   │   ├── train/
+│   │   │   ├── img1.txt
+│   │   │   ├── img2.txt
+│   │   │   └── ...
+│   │   ├── val/
+│   │   │   ├── img1.txt
+│   │   │   ├── img2.txt
+│   │   │   └── ...
+└── images/
+    ├── your_image.jpg

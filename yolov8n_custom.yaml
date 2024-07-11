@@ -1,0 +1,2 @@
+nc: 5  # 類別數量
+names: ['class1', 'class2', 'class3', 'class4', 'class5']  # 類別名稱
